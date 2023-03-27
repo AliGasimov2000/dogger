@@ -23,6 +23,19 @@ body {
 #carefor .imgbox {
   width: 500px;
 }
+@media screen and (min-width: 576px) {
+  #carefor .imgbox {
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #carefor .textbox {
+    padding-bottom: 20px;
+  }
+  #carefor .imgbox {
+    width: 350px;
+  }
+}
 
 #welcome {
   padding: 40px 0;
@@ -64,6 +77,40 @@ body {
 #welcome .wid {
   width: 580px;
   padding: 0;
+}
+@media screen and (max-width: 992px) {
+  #welcome .textbox {
+    padding: 0;
+  }
+  #welcome .textbox h2 {
+    font-size: 35px;
+  }
+  #welcome .textbox h6 {
+    font-size: 20px;
+  }
+  #welcome .imgbox {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #welcome .textbox {
+    padding: 0;
+  }
+  #welcome .textbox h1 {
+    font-size: 40px;
+  }
+  #welcome .textbox h3 {
+    font-size: 22px;
+  }
+  #welcome .textbox h2 {
+    font-size: 35px;
+  }
+  #welcome .textbox h6 {
+    font-size: 20px;
+  }
+  #welcome .imgbox {
+    margin-top: 30px;
+  }
 }
 
 #aboutus {
@@ -109,6 +156,33 @@ body {
 #aboutus .bigicon i {
   font-size: 30px;
   margin: 0 0 20px 20px;
+}
+@media screen and (min-width: 576px) {
+  #aboutus .textbox {
+    padding: 0;
+  }
+  #aboutus .textbox h1 {
+    font-size: 40px;
+  }
+  #aboutus .textbox h3, #aboutus .textbox p {
+    font-size: 22px;
+  }
+  #aboutus .textbox h4 {
+    font-size: 22px;
+  }
+  #aboutus .imgbox {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #aboutus .textbox {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  #aboutus .imgbox {
+    margin-top: 20px;
+  }
 }
 
 #ourtrainers {
@@ -162,6 +236,39 @@ body {
 #ourtrainers .bigicon i {
   font-size: 30px;
   margin: 0 0 15px;
+}
+@media screen and (min-width: 576px) {
+  #ourtrainers h1 {
+    font-size: 40px;
+  }
+  #ourtrainers h3, #ourtrainers h4 {
+    font-size: 22px;
+  }
+  #ourtrainers .box h2 {
+    font-size: 30px;
+  }
+  #ourtrainers .box ul {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #ourtrainers h1 {
+    font-size: 38px;
+  }
+  #ourtrainers h3, #ourtrainers h4 {
+    font-size: 20px;
+  }
+  #ourtrainers .box h2 {
+    font-size: 25px;
+  }
+  #ourtrainers .box ul {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  #ourtrainers .box ul {
+    margin-bottom: 20px;
+  }
 }
 
 #pricingtable {
@@ -221,6 +328,16 @@ body {
 #pricingtable .PREMIUM-color .btn {
   background-color: #6c9b9c;
 }
+@media screen and (min-width: 576px) {
+  #pricingtable .box {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #pricingtable .box {
+    margin-bottom: 20px;
+  }
+}
 
 #questions {
   padding: 40px 0;
@@ -271,6 +388,42 @@ body {
   font-size: 30px;
   color: #8eafae;
 }
+@media screen and (min-width: 576px) {
+  #questions .textbox {
+    padding: 0;
+  }
+  #questions .imgbox {
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #questions .textbox {
+    padding: 0 70px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #questions h1 {
+    font-size: 40px;
+  }
+  #questions h3 {
+    font-size: 22px;
+  }
+  #questions .textbox {
+    padding: 0;
+  }
+  #questions .textbox h2, #questions .textbox h4 {
+    font-size: 30px;
+  }
+  #questions .imgbox {
+    margin-top: 20px;
+  }
+  #questions .icon i {
+    font-size: 25px;
+  }
+  #questions .bigicon i {
+    font-size: 35px;
+  }
+}
 
 #doggerblog {
   padding: 40px 0;
@@ -313,6 +466,17 @@ body {
   font-size: 30px;
   margin: 0 0 10px;
 }
+@media screen and (max-width: 576px) {
+  #doggerblog .box {
+    margin-bottom: 20px;
+  }
+  #doggerblog .box .textbox h2 {
+    font-size: 25px;
+  }
+  #doggerblog .box .textbox h4, #doggerblog .box .textbox p {
+    font-size: 20px;
+  }
+}
 
 #ourservices {
   padding: 40px 0;
@@ -349,4 +513,14 @@ body {
 #ourservices .bigicon i {
   font-size: 30px;
   margin: 0 0 20px;
+}
+@media screen and (min-width: 768px) {
+  #ourservices .textbox {
+    padding: 30px 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  #ourservices .textbox {
+    text-align: center;
+  }
 }/*# sourceMappingURL=style.css.map */
