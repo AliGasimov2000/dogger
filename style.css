@@ -3,6 +3,9 @@ body {
   font-weight: 500;
 }
 
+.imgbox {
+  overflow: hidden;
+}
 .imgbox img {
   width: 100%;
 }
@@ -22,6 +25,9 @@ body {
 }
 #carefor .imgbox {
   width: 500px;
+}
+#carefor .imgbox img {
+  border-radius: 20px;
 }
 @media screen and (min-width: 576px) {
   #carefor .textbox h1 {
@@ -98,6 +104,9 @@ body {
   width: 580px;
   padding: 0;
 }
+#welcome .imgbox img {
+  border-radius: 15px;
+}
 @media screen and (max-width: 992px) {
   #welcome .textbox {
     padding: 0;
@@ -172,6 +181,7 @@ body {
 }
 #aboutus .imgbox {
   width: 450px;
+  border-radius: 20px;
 }
 #aboutus .bigicon {
   color: #789b9b;
@@ -262,6 +272,9 @@ body {
   font-size: 30px;
   margin: 0 0 15px;
 }
+#ourtrainers .imgbox {
+  border-radius: 20px;
+}
 @media screen and (max-width: 768px) {
   #ourtrainers h1 {
     font-size: 35px;
@@ -314,6 +327,7 @@ body {
 #pricingtable .textbox .icon {
   font-size: 30px;
   color: #94bbbb;
+  margin-bottom: 10px;
 }
 #pricingtable .textbox h1 {
   font-weight: 700;
@@ -427,6 +441,9 @@ body {
   font-size: 30px;
   color: #8eafae;
 }
+#questions .imgbox img {
+  border-radius: 20px;
+}
 @media screen and (min-width: 576px) {
   #questions .textbox {
     padding: 0;
@@ -504,6 +521,9 @@ body {
 #doggerblog .icon i {
   font-size: 30px;
   margin: 0 0 10px;
+}
+#doggerblog .imgbox img {
+  border-radius: 10px;
 }
 @media screen and (max-width: 576px) {
   #doggerblog h1 {
